@@ -1,0 +1,10 @@
+#indicating the dictionary
+print("Shopping list")
+shop_dict = {
+  "bakery": ["bread", "buns", "doughnut"],
+  "grosery": ["carrot", "celery", "rukola"]
+}
+#sentences with keys,values + capitalizing of fisrt letters of keys
+for keys, values in shop_dict.items():
+  print("I am going to", keys.capitalize(), "and buy there", values)
+  
