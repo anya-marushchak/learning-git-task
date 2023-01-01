@@ -1,6 +1,7 @@
 import sys
 import logging
 logging.basicConfig(level=logging.DEBUG, format='%(asctime)s %(message)s')
+
 def print_maturity(age):
     if age >= 18:
         logging.info("You are an adult")
